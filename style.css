@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Noto+Sans+JP&display=swap');
+
+body{
+margin: 10px 80px;
+font-family: 'Noto Sans JP', sans-serif;
+}
+/*font-family: 'Crimson Text', serif;*/
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+nav h1 {
+
+font-family: 'Crimson Text', serif;
+font-size: 30px;
+    
+}
+
+	nav .onglets{
+		margin-top: 35px;
+	}
+	nav .onglets a {
+		text-decoration: none;
+		color: grey;
+		margin-right: 10px;
+	}
+	.articles{
+		margin-top: 30px;
+		justify-content: space-between;
+
+	}
+
+	.articles.article{
+		display: flex;
+       flex-wrap: wrap;
+		margin-bottom: 30px;
+	}
+	.articles.article.left img{
+		height: 30px;
+		width: 20px;
+	}
+.articles .article .right{
+	width:50% ;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 400px;
+	margin-top: -280px;
+	
+}
+.articles .article .right p.date{
+	color: #7f7e7e;
+	margin-top:-20px;
+}
+.articles .article .right p.description{
+	color: #2d2d2d;
+}
